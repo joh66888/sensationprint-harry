@@ -180,7 +180,7 @@ gltfLoader.load('/models/sensifylogo.glb', (gltf) => {
 
     // -------- 加入 Group --------
     spaceshipModel.add(obj);        // 金屬核心
-    spaceshipModel.add(glassMesh);  // 玻璃外殼
+    //spaceshipModel.add(glassMesh);  // 玻璃外殼
 });
 
 // ------------------ Camera + Controls ------------------
