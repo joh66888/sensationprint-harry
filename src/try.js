@@ -139,7 +139,7 @@ scene.add(spaceshipModel);
 
 // Textures 太空船材質
 const textLoader = new THREE.TextureLoader();
-const metcapTexture = textLoader.load('./textures/matcaps/12.png');
+const metcapTexture = textLoader.load('./textures/matcaps/3.png');
 metcapTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Material
@@ -180,7 +180,7 @@ gltfLoader.load('/models/sensifylogo.glb', (gltf) => {
 
     // -------- 加入 Group --------
     spaceshipModel.add(obj);        // 金屬核心
-    spaceshipModel.add(glassMesh);  // 玻璃外殼
+    //spaceshipModel.add(glassMesh);  // 玻璃外殼
 });
 
 // ------------------ Camera + Controls ------------------
