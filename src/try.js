@@ -71,6 +71,7 @@ const startTime = performance.now();
 let envMap = null;
 
 rgbeLoader.setDataType(THREE.HalfFloatType);
+/* no environment map
 rgbeLoader.load(
     '/textures/environmentMap/universe.hdr',
     (texture) => {
@@ -123,7 +124,7 @@ rgbeLoader.load(
         console.error('An error occurred while loading the HDR environment map:', error);
     }
 );
-
+*/
 
 /*以下爲核心模型區，僅需調整此部分即可-----------------------------------------------------------*/
 
@@ -139,7 +140,7 @@ scene.add(spaceshipModel);
 
 // Textures 太空船材質
 const textLoader = new THREE.TextureLoader();
-const metcapTexture = textLoader.load('./textures/matcaps/11.png');
+const metcapTexture = textLoader.load('./textures/matcaps/13.png');
 metcapTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Material
