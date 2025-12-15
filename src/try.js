@@ -140,7 +140,7 @@ scene.add(spaceshipModel);
 
 // Textures 太空船材質
 const textLoader = new THREE.TextureLoader();
-const metcapTexture = textLoader.load('./textures/matcaps/13.png');
+const metcapTexture = textLoader.load('./textures/matcaps/14.png');
 metcapTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Material
